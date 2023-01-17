@@ -1,0 +1,101 @@
+.main {
+  display: flex;
+  min-height: 100vh;
+}
+
+.leftColumn {
+  background-color: white;
+  padding: 2rem;
+  width: 60%;
+}
+
+.rightColumn {
+  background-color: rgb(244,244,244);
+  padding: 2rem;
+  width: 40%;
+  max-height: 100vh;
+  overflow: scroll;
+
+}
+
+.buttonsContainer {
+  display: flex;
+  padding: 2rem 0;
+  .buttonBox {
+    width: 25%;
+  }
+  .alignRight {
+    text-align: end;
+  }
+  .alignLeft {
+    text-align: start;
+  }
+}
+
+.clearButton {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: white;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  text-align: center;
+  font-size: 14px;
+  padding: .5rem .5rem;
+  width: 60%;
+  transition: all 0.5s;
+  cursor: pointer;
+  span {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10px;
+  }
+  .clearIconBtn {
+    font-size: 20px;
+    padding: 0;
+    margin-left: -50px;
+  }
+}
+
+.loadDataButton {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: rgb(57,74,69);
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: .8rem .5rem;
+  width: 90%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.analyzeDataButton {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: rgb(59,112,92);
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: .8rem .5rem;
+  width: 80%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.dataSubtitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.txtData {
+  width: 100%;
+  height: calc(100vh - 280px);
+} 
+
+
+
+
+
